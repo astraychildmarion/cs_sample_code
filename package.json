@@ -1,5 +1,5 @@
 {
-  "name": "xycloud-starter",
+  "name": "compute-station-frontend",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.0.1",
+    "@xycloud/xycloud-ui-kit-2": "^1.0.0",
     "ant-design-vue": "^2.2.8",
     "axios": "^0.23.0",
     "socket.io-client": "^4.3.2",
@@ -46,6 +47,7 @@
     "jest": "^27.2.5",
     "less": "^4.1.2",
     "less-loader": "^10.1.0",
+    "miragejs": "^0.1.42",
     "prettier": "^2.4.1",
     "rollup-plugin-gzip": "^2.5.0",
     "sass": "^1.42.1",

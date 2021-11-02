@@ -17,5 +17,12 @@
     "skipLibCheck": true,
     "types": ["vite/client", "jest", "@types/jest", "cypress"]
   },
-  "include": ["tests/**/*.spec.ts", "src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "include": [
+    "tests/**/*.spec.ts",
+    "src/**/*.js",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ]
 }

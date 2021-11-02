@@ -1,0 +1,2090 @@
+[
+  {
+    "id": "616ff7f8ab252139b87c2f33",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d1",
+      "label": "CONTROL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a29f0",
+      "label": "Oracle Enterprise Linux 7.4 (UEK)",
+      "type": "LINUX"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.0.118"],
+    "cpu": 16,
+    "ram_gb": 64,
+    "purpose": "NDB migrate (Negative DB)",
+    "hostname": "F-NDB-DB118",
+    "disk_capacity_gb": 300,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 70,
+        "unit": "GB",
+        "drive": "/"
+      },
+      {
+        "seq": 0,
+        "size": 10,
+        "unit": "GB",
+        "drive": "/tmp"
+      },
+      {
+        "seq": 0,
+        "size": 100,
+        "unit": "MB",
+        "drive": "/boot"
+      },
+      {
+        "seq": 0,
+        "size": 190,
+        "unit": "GB",
+        "drive": "/opt"
+      },
+      {
+        "seq": 0,
+        "size": 8,
+        "unit": "GB",
+        "drive": "swap"
+      }
+    ],
+    "disk_memo": "300GB x2 Raid1",
+    "bu_application": "NDB migrate (Negative DB)",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f39",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d1",
+      "label": "CONTROL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a00",
+      "label": "W2K12R2 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.0.131"],
+    "cpu": 20,
+    "ram_gb": 64,
+    "purpose": "Audit Log DB",
+    "hostname": "F-MSAUD-DBC131",
+    "disk_capacity_gb": 450,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 100,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 0,
+        "size": 318,
+        "unit": "GB",
+        "drive": "E"
+      }
+    ],
+    "disk_memo": "450GB x2 Raid1",
+    "bu_application": "Audit Log DB",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [
+      {
+        "key": "611e1b2bb4e22536d51a2a12",
+        "label": "SBK",
+        "code": "sbk"
+      }
+    ],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f3a",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d1",
+      "label": "CONTROL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a12",
+        "label": "SBK",
+        "code": "sbk"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a00",
+      "label": "W2K12R2 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.0.132"],
+    "cpu": 16,
+    "ram_gb": 64,
+    "purpose": "Audit Log DB",
+    "hostname": "F-MSAUD-DBC132",
+    "disk_capacity_gb": 300,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 100,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 0,
+        "size": 180,
+        "unit": "GB",
+        "drive": "E"
+      }
+    ],
+    "disk_memo": "300GB x2 Raid1",
+    "bu_application": "Audit Log DB",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f3b",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d1",
+      "label": "CONTROL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a00",
+      "label": "W2K12R2 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.0.133"],
+    "cpu": 16,
+    "ram_gb": 64,
+    "purpose": "Session DB",
+    "hostname": "F-MSSSO-DBC133",
+    "disk_capacity_gb": 300,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 100,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 0,
+        "size": 180,
+        "unit": "GB",
+        "drive": "E"
+      }
+    ],
+    "disk_memo": "300GB x2 Raid1",
+    "bu_application": "Session DB",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [
+      {
+        "key": "611e1b2bb4e22536d51a2a12",
+        "label": "SBK",
+        "code": "sbk"
+      }
+    ],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f3c",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d1",
+      "label": "CONTROL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a12",
+        "label": "SBK",
+        "code": "sbk"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a00",
+      "label": "W2K12R2 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.0.134"],
+    "cpu": 16,
+    "ram_gb": 64,
+    "purpose": "Session DB",
+    "hostname": "F-MSSSO-DBC134",
+    "disk_capacity_gb": 300,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 100,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 0,
+        "size": 180,
+        "unit": "GB",
+        "drive": "E"
+      }
+    ],
+    "disk_memo": "300GB x2 Raid1",
+    "bu_application": "Session DB",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f3d",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d1",
+      "label": "CONTROL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a00",
+      "label": "W2K12R2 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.0.135"],
+    "cpu": 16,
+    "ram_gb": 32,
+    "purpose": "188 Can Report",
+    "hostname": "F-MSCAN-DBC135",
+    "disk_capacity_gb": 300,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 100,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 0,
+        "size": 180,
+        "unit": "GB",
+        "drive": "E"
+      }
+    ],
+    "disk_memo": "300GB x2 Raid1",
+    "bu_application": "188 Can Report",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f3f",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d1",
+      "label": "CONTROL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a00",
+      "label": "W2K12R2 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.0.137"],
+    "cpu": 16,
+    "ram_gb": 32,
+    "purpose": "AccPac",
+    "hostname": "F-MSACPAC-DBC137",
+    "disk_capacity_gb": 300,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 100,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 0,
+        "size": 180,
+        "unit": "GB",
+        "drive": "E"
+      }
+    ],
+    "disk_memo": "300GB x2 Raid1",
+    "bu_application": "AccPac",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f41",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d1",
+      "label": "CONTROL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a00",
+      "label": "W2K12R2 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.0.139"],
+    "cpu": 16,
+    "ram_gb": 64,
+    "purpose": "Affiliate DB",
+    "hostname": "F-MSAFF-DBC139",
+    "disk_capacity_gb": 300,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 100,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 0,
+        "size": 180,
+        "unit": "GB",
+        "drive": "E"
+      }
+    ],
+    "disk_memo": "300GB x2 Raid1",
+    "bu_application": "Affiliate DB",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f44",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d1",
+      "label": "CONTROL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a29f0",
+      "label": "Oracle Enterprise Linux 7.4 (UEK)",
+      "type": "LINUX"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.0.144"],
+    "cpu": 16,
+    "ram_gb": 64,
+    "purpose": "188Asia / SBK CanReport",
+    "hostname": "F-RPT-DB144",
+    "disk_capacity_gb": 300,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 70,
+        "unit": "GB",
+        "drive": "/"
+      },
+      {
+        "seq": 0,
+        "size": 10,
+        "unit": "GB",
+        "drive": "/tmp"
+      },
+      {
+        "seq": 0,
+        "size": 512,
+        "unit": "MB",
+        "drive": "/boot"
+      },
+      {
+        "seq": 0,
+        "size": 165,
+        "unit": "GB",
+        "drive": "/opt"
+      },
+      {
+        "seq": 0,
+        "size": 32,
+        "unit": "GB",
+        "drive": "swap"
+      }
+    ],
+    "disk_memo": "300GB x2 Raid1",
+    "bu_application": "188Asia / SBK CanReport",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [
+      {
+        "key": "611e1b2bb4e22536d51a2a12",
+        "label": "SBK",
+        "code": "sbk"
+      }
+    ],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f50",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d1",
+      "label": "CONTROL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a29f0",
+      "label": "Oracle Enterprise Linux 7.4 (UEK)",
+      "type": "LINUX"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.0.166"],
+    "cpu": 32,
+    "ram_gb": 256,
+    "purpose": "188 archival  DB, oracle 12c",
+    "hostname": "F-ARCH-DB166",
+    "disk_capacity_gb": 600,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 140,
+        "unit": "GB",
+        "drive": "/"
+      },
+      {
+        "seq": 0,
+        "size": 20,
+        "unit": "GB",
+        "drive": "/tmp"
+      },
+      {
+        "seq": 0,
+        "size": 512,
+        "unit": "MB",
+        "drive": "/boot"
+      },
+      {
+        "seq": 0,
+        "size": 364,
+        "unit": "GB",
+        "drive": "/opt"
+      },
+      {
+        "seq": 0,
+        "size": 32,
+        "unit": "GB",
+        "drive": "swap"
+      }
+    ],
+    "disk_memo": "300GB x3 Raid5",
+    "bu_application": "188 archival  DB, oracle 12c",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f58",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d1",
+      "label": "CONTROL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a00",
+      "label": "W2K12R2 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.0.179"],
+    "cpu": 16,
+    "ram_gb": 32,
+    "purpose": "FinScan DB",
+    "hostname": "F-MSFSCN-DB179",
+    "disk_capacity_gb": 300,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 100,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 0,
+        "size": 180,
+        "unit": "GB",
+        "drive": "E"
+      }
+    ],
+    "disk_memo": "300GB x2 Raid1",
+    "bu_application": "FinScan DB",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f5b",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d1",
+      "label": "CONTROL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a00",
+      "label": "W2K12R2 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.0.202"],
+    "cpu": 4,
+    "ram_gb": 24,
+    "purpose": "Legacy DB",
+    "hostname": "F-MSLGC-DB202",
+    "disk_capacity_gb": 1600,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 30,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 0,
+        "size": 1.66,
+        "unit": "TB",
+        "drive": "X"
+      }
+    ],
+    "disk_memo": "",
+    "bu_application": "Legacy DB",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f67",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d2",
+      "label": "CONTROL2"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a29f0",
+      "label": "Oracle Enterprise Linux 7.4 (UEK)",
+      "type": "LINUX"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.1.121"],
+    "cpu": 64,
+    "ram_gb": 1024,
+    "purpose": "AccWager 188 DB - Live",
+    "hostname": "J-WGR188-DB121",
+    "disk_capacity_gb": 1600,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 1,
+        "unit": "TB",
+        "drive": "/"
+      },
+      {
+        "seq": 0,
+        "size": 60,
+        "unit": "GB",
+        "drive": "/tmp"
+      },
+      {
+        "seq": 0,
+        "size": 512,
+        "unit": "MB",
+        "drive": "/boot"
+      },
+      {
+        "seq": 0,
+        "size": 370,
+        "unit": "GB",
+        "drive": "/opt"
+      },
+      {
+        "seq": 0,
+        "size": 32,
+        "unit": "GB",
+        "drive": "swap"
+      }
+    ],
+    "disk_memo": "800GB x3 Raid5",
+    "bu_application": "AccWager 188 DB - Live",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [
+      {
+        "key": "611e1b2bb4e22536d51a2a12",
+        "label": "SBK",
+        "code": "sbk"
+      }
+    ],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f68",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d2",
+      "label": "CONTROL2"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a12",
+        "label": "SBK",
+        "code": "sbk"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a29f0",
+      "label": "Oracle Enterprise Linux 7.4 (UEK)",
+      "type": "LINUX"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.1.122"],
+    "cpu": 64,
+    "ram_gb": 1024,
+    "purpose": "AccWager 188 DB - Stand By",
+    "hostname": "J-WGR188-DB122",
+    "disk_capacity_gb": 1600,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 1,
+        "unit": "TB",
+        "drive": "/"
+      },
+      {
+        "seq": 0,
+        "size": 60,
+        "unit": "GB",
+        "drive": "/tmp"
+      },
+      {
+        "seq": 0,
+        "size": 512,
+        "unit": "MB",
+        "drive": "/boot"
+      },
+      {
+        "seq": 0,
+        "size": 370,
+        "unit": "GB",
+        "drive": "/opt"
+      },
+      {
+        "seq": 0,
+        "size": 32,
+        "unit": "GB",
+        "drive": "swap"
+      }
+    ],
+    "disk_memo": "800GB x3 Raid5",
+    "bu_application": "AccWager 188 DB - Stand By",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f6b",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d2",
+      "label": "CONTROL2"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a29f0",
+      "label": "Oracle Enterprise Linux 7.4 (UEK)",
+      "type": "LINUX"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.1.129"],
+    "cpu": 32,
+    "ram_gb": 256,
+    "purpose": "PCH DB",
+    "hostname": "J-PCH-DB129",
+    "disk_capacity_gb": 800,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 300,
+        "unit": "GB",
+        "drive": "/"
+      },
+      {
+        "seq": 0,
+        "size": 60,
+        "unit": "GB",
+        "drive": "/tmp"
+      },
+      {
+        "seq": 0,
+        "size": 512,
+        "unit": "MB",
+        "drive": "/boot"
+      },
+      {
+        "seq": 0,
+        "size": 350,
+        "unit": "GB",
+        "drive": "/opt"
+      },
+      {
+        "seq": 0,
+        "size": 32,
+        "unit": "GB",
+        "drive": "swap"
+      }
+    ],
+    "disk_memo": "800GB x2 Raid1",
+    "bu_application": "PCH DB",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f6c",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d2",
+      "label": "CONTROL2"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a29f0",
+      "label": "Oracle Enterprise Linux 7.4 (UEK)",
+      "type": "LINUX"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.1.130"],
+    "cpu": 32,
+    "ram_gb": 256,
+    "purpose": "PRA DB",
+    "hostname": "J-PRA-DB130",
+    "disk_capacity_gb": 800,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 300,
+        "unit": "GB",
+        "drive": "/"
+      },
+      {
+        "seq": 0,
+        "size": 60,
+        "unit": "GB",
+        "drive": "/tmp"
+      },
+      {
+        "seq": 0,
+        "size": 512,
+        "unit": "MB",
+        "drive": "/boot"
+      },
+      {
+        "seq": 0,
+        "size": 350,
+        "unit": "GB",
+        "drive": "/opt"
+      },
+      {
+        "seq": 0,
+        "size": 32,
+        "unit": "GB",
+        "drive": "swap"
+      }
+    ],
+    "disk_memo": "800GB x2 Raid1",
+    "bu_application": "PRA DB",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f6e",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d2",
+      "label": "CONTROL2"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a29f0",
+      "label": "Oracle Enterprise Linux 7.4 (UEK)",
+      "type": "LINUX"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.1.132"],
+    "cpu": 32,
+    "ram_gb": 256,
+    "purpose": "OPA188 & OPAAPP188 DB",
+    "hostname": "J-OPA188-DB132",
+    "disk_capacity_gb": 800,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 300,
+        "unit": "GB",
+        "drive": "/"
+      },
+      {
+        "seq": 0,
+        "size": 60,
+        "unit": "GB",
+        "drive": "/tmp"
+      },
+      {
+        "seq": 0,
+        "size": 512,
+        "unit": "MB",
+        "drive": "/boot"
+      },
+      {
+        "seq": 0,
+        "size": 350,
+        "unit": "GB",
+        "drive": "/opt"
+      },
+      {
+        "seq": 0,
+        "size": 32,
+        "unit": "GB",
+        "drive": "swap"
+      }
+    ],
+    "disk_memo": "800GB x2 Raid1",
+    "bu_application": "OPA188 & OPAAPP188 DB",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f71",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d2",
+      "label": "CONTROL2"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a29f0",
+      "label": "Oracle Enterprise Linux 7.4 (UEK)",
+      "type": "LINUX"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.1.135"],
+    "cpu": 32,
+    "ram_gb": 256,
+    "purpose": "Promo DB",
+    "hostname": "J-PROMO-DB135",
+    "disk_capacity_gb": 800,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 300,
+        "unit": "GB",
+        "drive": "/"
+      },
+      {
+        "seq": 0,
+        "size": 60,
+        "unit": "GB",
+        "drive": "/tmp"
+      },
+      {
+        "seq": 0,
+        "size": 512,
+        "unit": "MB",
+        "drive": "/boot"
+      },
+      {
+        "seq": 0,
+        "size": 350,
+        "unit": "GB",
+        "drive": "/opt"
+      },
+      {
+        "seq": 0,
+        "size": 32,
+        "unit": "GB",
+        "drive": "swap"
+      }
+    ],
+    "disk_memo": "800GB x2 Raid1",
+    "bu_application": "Promo DB",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f72",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d2",
+      "label": "CONTROL2"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a29f0",
+      "label": "Oracle Enterprise Linux 7.4 (UEK)",
+      "type": "LINUX"
+    },
+    "server_type": "PHY",
+    "service_lan_ip": ["10.11.1.136"],
+    "cpu": 32,
+    "ram_gb": 256,
+    "purpose": "Message Hub DB",
+    "hostname": "J-MSGHUB-DB136",
+    "disk_capacity_gb": 800,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 300,
+        "unit": "GB",
+        "drive": "/"
+      },
+      {
+        "seq": 0,
+        "size": 60,
+        "unit": "GB",
+        "drive": "/tmp"
+      },
+      {
+        "seq": 0,
+        "size": 512,
+        "unit": "MB",
+        "drive": "/boot"
+      },
+      {
+        "seq": 0,
+        "size": 350,
+        "unit": "GB",
+        "drive": "/opt"
+      },
+      {
+        "seq": 0,
+        "size": 32,
+        "unit": "GB",
+        "drive": "swap"
+      }
+    ],
+    "disk_memo": "800GB x2 Raid1",
+    "bu_application": "Message Hub DB",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f91",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d8",
+      "label": "INTERNAL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a02",
+      "label": "W2K16 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "VM",
+    "service_lan_ip": ["10.11.8.9"],
+    "cpu": 8,
+    "ram_gb": 8,
+    "purpose": "IOM SPI",
+    "hostname": "G-IOM-SPI009",
+    "disk_capacity_gb": 105,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 40,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 1,
+        "size": 30,
+        "unit": "GB",
+        "drive": "X"
+      },
+      {
+        "seq": 2,
+        "size": 35,
+        "unit": "GB",
+        "drive": "L"
+      }
+    ],
+    "disk_memo": "",
+    "bu_application": "IOM SPI",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f92",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d8",
+      "label": "INTERNAL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a02",
+      "label": "W2K16 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "VM",
+    "service_lan_ip": ["10.11.8.10"],
+    "cpu": 8,
+    "ram_gb": 16,
+    "purpose": "IOM SPI",
+    "hostname": "G-IOM-SPI010",
+    "disk_capacity_gb": 105,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 40,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 1,
+        "size": 30,
+        "unit": "GB",
+        "drive": "X"
+      },
+      {
+        "seq": 2,
+        "size": 35,
+        "unit": "GB",
+        "drive": "L"
+      }
+    ],
+    "disk_memo": "",
+    "bu_application": "IOM SPI",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f93",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d8",
+      "label": "INTERNAL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a04",
+      "label": "W2K19 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "VM",
+    "service_lan_ip": ["10.11.8.11"],
+    "cpu": 8,
+    "ram_gb": 8,
+    "purpose": "EOD (End Of Day Scheduler)",
+    "hostname": "G-EOD-CSH011",
+    "disk_capacity_gb": 80,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 40,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 1,
+        "size": 5,
+        "unit": "GB",
+        "drive": "X"
+      },
+      {
+        "seq": 2,
+        "size": 35,
+        "unit": "GB",
+        "drive": "L"
+      }
+    ],
+    "disk_memo": "",
+    "bu_application": "EOD (End Of Day Scheduler)",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f8ab252139b87c2f94",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d8",
+      "label": "INTERNAL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a04",
+      "label": "W2K19 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "VM",
+    "service_lan_ip": ["10.11.8.12"],
+    "cpu": 8,
+    "ram_gb": 8,
+    "purpose": "EOD (End Of Day Scheduler)",
+    "hostname": "G-EOD-CSH012",
+    "disk_capacity_gb": 80,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 40,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 1,
+        "size": 5,
+        "unit": "GB",
+        "drive": "X"
+      },
+      {
+        "seq": 2,
+        "size": 35,
+        "unit": "GB",
+        "drive": "L"
+      }
+    ],
+    "disk_memo": "",
+    "bu_application": "EOD (End Of Day Scheduler)",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f9ab252139b87c2fbc",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d8",
+      "label": "INTERNAL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a04",
+      "label": "W2K19 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "VM",
+    "service_lan_ip": ["10.11.8.51"],
+    "cpu": 8,
+    "ram_gb": 8,
+    "purpose": "iOWB (iOps Work Bench)",
+    "hostname": "G-IOWB-051",
+    "disk_capacity_gb": 80,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 40,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 1,
+        "size": 5,
+        "unit": "GB",
+        "drive": "X"
+      },
+      {
+        "seq": 2,
+        "size": 35,
+        "unit": "GB",
+        "drive": "L"
+      }
+    ],
+    "disk_memo": "",
+    "bu_application": "iOWB (iOps Work Bench)",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f9ab252139b87c2fbd",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d8",
+      "label": "INTERNAL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a04",
+      "label": "W2K19 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "VM",
+    "service_lan_ip": ["10.11.8.52"],
+    "cpu": 8,
+    "ram_gb": 8,
+    "purpose": "iOWB (iOps Work Bench)",
+    "hostname": "G-IOWB-052",
+    "disk_capacity_gb": 80,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 40,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 1,
+        "size": 5,
+        "unit": "GB",
+        "drive": "X"
+      },
+      {
+        "seq": 2,
+        "size": 35,
+        "unit": "GB",
+        "drive": "L"
+      }
+    ],
+    "disk_memo": "",
+    "bu_application": "iOWB (iOps Work Bench)",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f9ab252139b87c2fbe",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d8",
+      "label": "INTERNAL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a02",
+      "label": "W2K16 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "VM",
+    "service_lan_ip": ["10.11.8.53"],
+    "cpu": 8,
+    "ram_gb": 8,
+    "purpose": "iOWB-SPI",
+    "hostname": "G-IOWB-SPI053",
+    "disk_capacity_gb": 80,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 40,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 1,
+        "size": 5,
+        "unit": "GB",
+        "drive": "X"
+      },
+      {
+        "seq": 2,
+        "size": 35,
+        "unit": "GB",
+        "drive": "L"
+      }
+    ],
+    "disk_memo": "",
+    "bu_application": "iOWB-SPI",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f9ab252139b87c2fbf",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d8",
+      "label": "INTERNAL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a02",
+      "label": "W2K16 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "VM",
+    "service_lan_ip": ["10.11.8.54"],
+    "cpu": 8,
+    "ram_gb": 8,
+    "purpose": "iOWB-SPI",
+    "hostname": "G-IOWB-SPI054",
+    "disk_capacity_gb": 80,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 40,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 1,
+        "size": 5,
+        "unit": "GB",
+        "drive": "X"
+      },
+      {
+        "seq": 2,
+        "size": 35,
+        "unit": "GB",
+        "drive": "L"
+      }
+    ],
+    "disk_memo": "",
+    "bu_application": "iOWB-SPI",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f9ab252139b87c2fc0",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d8",
+      "label": "INTERNAL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a04",
+      "label": "W2K19 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "VM",
+    "service_lan_ip": ["10.11.8.55"],
+    "cpu": 8,
+    "ram_gb": 8,
+    "purpose": "188 BO SPI",
+    "hostname": "G-SYNET-SPI055",
+    "disk_capacity_gb": 80,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 40,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 1,
+        "size": 5,
+        "unit": "GB",
+        "drive": "X"
+      },
+      {
+        "seq": 2,
+        "size": 35,
+        "unit": "GB",
+        "drive": "L"
+      }
+    ],
+    "disk_memo": "",
+    "bu_application": "188 BO SPI",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f9ab252139b87c2fc1",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d8",
+      "label": "INTERNAL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a04",
+      "label": "W2K19 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "VM",
+    "service_lan_ip": ["10.11.8.56"],
+    "cpu": 8,
+    "ram_gb": 8,
+    "purpose": "188 BO SPI",
+    "hostname": "G-SYNET-SPI056",
+    "disk_capacity_gb": 80,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 40,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 1,
+        "size": 5,
+        "unit": "GB",
+        "drive": "X"
+      },
+      {
+        "seq": 2,
+        "size": 35,
+        "unit": "GB",
+        "drive": "L"
+      }
+    ],
+    "disk_memo": "",
+    "bu_application": "188 BO SPI",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  },
+  {
+    "id": "616ff7f9ab252139b87c2fd0",
+    "env": {
+      "key": "5ffd4232f6007bce3c6c2aea",
+      "label": "TRZ_PROD",
+      "node_num": 0,
+      "factor": 0
+    },
+    "zone": {
+      "key": "611e1b2bb4e22536d51a29d8",
+      "label": "INTERNAL"
+    },
+    "bu": [
+      {
+        "key": "611e1b2bb4e22536d51a2a0f",
+        "label": "188Asia",
+        "code": "188asia"
+      }
+    ],
+    "os": {
+      "key": "611e1b2bb4e22536d51a2a02",
+      "label": "W2K16 Std",
+      "type": "WINDOWS"
+    },
+    "server_type": "VM",
+    "service_lan_ip": ["10.11.8.71"],
+    "cpu": 8,
+    "ram_gb": 8,
+    "purpose": "188AFF BO",
+    "hostname": "G-188-AFF-BO071",
+    "disk_capacity_gb": 80,
+    "disk_partition": [
+      {
+        "seq": 0,
+        "size": 40,
+        "unit": "GB",
+        "drive": "C"
+      },
+      {
+        "seq": 1,
+        "size": 5,
+        "unit": "GB",
+        "drive": "X"
+      },
+      {
+        "seq": 2,
+        "size": 35,
+        "unit": "GB",
+        "drive": "L"
+      }
+    ],
+    "disk_memo": "",
+    "bu_application": "188AFF BO",
+    "oob": "",
+    "ilo": "",
+    "vip": [],
+    "bu_ext": [],
+    "rack": "",
+    "remark": "",
+    "provision_date": "2021/01/01",
+    "decommission_date": "",
+    "delete_at": null,
+    "update_by": "SYSTEM",
+    "IsAuto": 0,
+    "used": false
+  }
+]

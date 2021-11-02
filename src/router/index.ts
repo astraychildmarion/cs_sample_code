@@ -1,12 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import routes from './routes';
-import menuList from './menu';
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
 });
 
-export { menuList };
+export * from './menu';
 
 export default router;

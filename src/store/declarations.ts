@@ -24,20 +24,52 @@ import {
   NamespacedMutations as WsqueueMutations,
   NamespacedGetters as WsqueueGetters,
 } from '@/store/wsqueue/declarations';
+import {
+  ModuleName as ServerModule,
+  Store as ServerStore,
+  State as ServerState,
+  NamespacedActions as ServerActions,
+  NamespacedMutations as ServerMutations,
+  NamespacedGetters as ServerGetters,
+} from '@/store/server/declarations';
+import {
+  ModuleName as DashboardModule,
+  Store as DashboardStore,
+  State as DashboardState,
+  NamespacedActions as DashboardActions,
+  NamespacedMutations as DashboardMutations,
+  NamespacedGetters as DashboardGetters,
+} from '@/store/dashboard/declarations';
 
 export type RootState = {
   feature: FeatureState;
   sample: SampleState;
   wsqueue: WsqueueState;
+  server: ServerState;
+  dashboard: DashboardState;
 };
 
-export type RootMutations = FeatureMutations & SampleMutations & WsqueueMutations;
-export type RootActions = FeatureActions & SampleActions & WsqueueActions;
-export type RootGetters = FeatureGetters & SampleGetters & WsqueueGetters;
+export type RootMutations = FeatureMutations &
+  SampleMutations &
+  WsqueueMutations &
+  ServerMutations &
+  DashboardMutations;
+export type RootActions = FeatureActions &
+  SampleActions &
+  WsqueueActions &
+  ServerActions &
+  DashboardActions;
+export type RootGetters = FeatureGetters &
+  SampleGetters &
+  WsqueueGetters &
+  ServerGetters &
+  DashboardGetters;
 
 export type Store = FeatureStore<Pick<RootState, FeatureModule>> &
   SampleStore<Pick<RootState, SampleModule>> &
-  WsqueueStore<Pick<RootState, WsqueueModule>>;
+  WsqueueStore<Pick<RootState, WsqueueModule>> &
+  ServerStore<Pick<RootState, ServerModule>> &
+  DashboardStore<Pick<RootState, DashboardModule>>;
 
 /**
  * Define namespaced types of actions, mutations or getters

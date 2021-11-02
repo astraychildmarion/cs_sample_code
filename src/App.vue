@@ -1,26 +1,44 @@
 <script setup lang="ts">
-  import { computed } from 'vue';
-  import { Layout, LayoutContent, LayoutHeader, Menu, MenuItem } from 'ant-design-vue';
-  import { useRoute } from 'vue-router';
-  import { menuList } from '@/router';
+  import { ref } from 'vue';
+  import { XYLayout } from '@xycloud/xycloud-ui-kit-2';
+  import { useRouter } from 'vue-router';
+  import { siderData, siderMenuItems, appListDrawerData, manageMenu, userMenu } from '@/router';
 
-  const route = useRoute();
-  const menuKey = computed(() => route.name?.toString().toLowerCase());
+  const router = useRouter();
+  const selectedKeys = ref<string[]>([]);
+  const clickMenu = (key: string) => {
+    const target = siderMenuItems.find((item) => item.key === key);
+    if (target) {
+      selectedKeys.value = [key];
+      router.push(target.path);
+    }
+  };
 </script>
 
 <template>
-  <Layout>
-    <LayoutHeader>
-      <Menu theme="dark" mode="horizontal" :selected-keys="[menuKey]">
-        <MenuItem v-for="item in menuList" :key="item.key">
-          <router-link :to="item.link">{{ item.title }}</router-link>
-        </MenuItem>
-      </Menu>
-    </LayoutHeader>
-    <LayoutContent style="padding: 16px">
-      <router-view />
-    </LayoutContent>
-  </Layout>
+  <XYLayout
+    manage-auth
+    logo-url="/logo.svg"
+    logo-link="https://alpha.xycloud.org/"
+    :manage-menu="manageMenu"
+    :user-menu="userMenu"
+    :user-info="{
+      name: 'System User 01',
+    }"
+    :sider-data="siderData"
+    :app-list-drawer-data="appListDrawerData"
+    :selected-keys="selectedKeys"
+    @click-menu="clickMenu"
+  >
+    <template v-for="item in siderMenuItems" :key="item.vue.itemKey" #[item.vue.templateName]>
+      <component :is="item.iconComponent" />
+    </template>
+    <template #content>
+      <div style="padding-top: 72px">
+        <router-view></router-view>
+      </div>
+    </template>
+  </XYLayout>
 </template>
 
 <style lang="scss"></style>
